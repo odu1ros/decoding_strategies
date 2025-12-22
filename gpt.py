@@ -6,7 +6,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 import random
 from torch.utils.data import Dataset, DataLoader
-from typing import List, Dict, Any, Tuple, Optional, Mapping, Set, Self, NamedTuple, TypedDict
+from typing import List, Dict, Any, Tuple, Optional, Mapping, Set, NamedTuple, TypedDict
+from typing_extensions import Self
 
 def fix_seed(seed: int = 42):
     random.seed(seed)
